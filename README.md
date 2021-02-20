@@ -5,6 +5,7 @@ Easy usage of Glide 🦸🏻‍♀️
 ## ✨ For use Glide
 ### Step 1 -> Add implements to build.gradle file in module level
 `implementation 'com.github.bumptech.glide:glide:4.12.0'`
+
 `annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'`
 
 ### Step 2 -> Get uses permission for internet from manifest file
