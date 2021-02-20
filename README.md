@@ -10,4 +10,9 @@ Easy usage of Glide 🦸🏻‍♀️
 
 ### Step 2 -> Get uses permission for internet from manifest file
 `<uses-permission android:name="android.permission.INTERNET"/>`
+### Step 3 -> Be sure that these are exist in build.gradle file in project level
+`repositories {
+        google()
+        jcenter()
+    }`
 ### Now you are able to use Glide! 
