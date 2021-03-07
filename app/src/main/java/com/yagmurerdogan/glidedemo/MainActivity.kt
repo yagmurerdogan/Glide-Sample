@@ -8,7 +8,7 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 
 class MainActivity : AppCompatActivity() {
 
-    private val image = "https://cdn.pixabay.com/photo/2018/05/03/21/49/android-3372580_960_720.png"
+    private val imageUrl = "https://cdn.pixabay.com/photo/2018/05/03/21/49/android-3372580_960_720.png"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,11 +19,11 @@ class MainActivity : AppCompatActivity() {
         val imageThree = findViewById<ImageView>(R.id.image_three)
 
         Glide.with(this)
-            .load(image)
+            .load(imageUrl)
             .into(imageOne)
 
         Glide.with(this)
-            .load(image)
+            .load(imageUrl)
             .fitCenter()
             .circleCrop()
             .diskCacheStrategy(DiskCacheStrategy.ALL)
@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
             .into(imageTwo)
 
         Glide.with(this)
-            .load(image)
+            .load(imageUrl)
             .override(300,400)
             .centerCrop()
             .error(R.drawable.img_placeholder)
