@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GlideDemo</string>
+    <string name="image_content_description">image</string>
 </resources>
