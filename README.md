@@ -1,7 +1,15 @@
 # Glide-Sample
 Easy usage of Glide 🦸🏻‍♀️
-## ⚡️ 3 Different Views 
-![login1](https://user-images.githubusercontent.com/47380312/108607057-0f79d800-73cf-11eb-8b85-32a810a4168a.JPG)
+<table>
+  <tr>
+    <td>⚡️ GIF in imageView </td>  
+    <td>⚡️ 3 Different Views </td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/47380312/110306412-d9fbfe00-800e-11eb-8178-bba60cd09f9e.gif"></td>
+    <td valign="top"><img src="https://user-images.githubusercontent.com/47380312/108607057-0f79d800-73cf-11eb-8b85-32a810a4168a.JPG"></td>
+  </tr>
+ </table>
 ## ✨ For use Glide
 ### Step 1 -> Add implements to build.gradle file in module level
 `implementation 'com.github.bumptech.glide:glide:4.12.0'`
