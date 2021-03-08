@@ -4,7 +4,7 @@
     <dimen name="image_width">150dp</dimen>
     <dimen name="image_margin_top">25dp</dimen>
 
-    <dimen name="video_gif_height">250dp</dimen>
-    <dimen name="video_gif_width">300dp</dimen>
+    <dimen name="gif_height">300dp</dimen>
+    <dimen name="gif_width">300dp</dimen>
 
 </resources>
