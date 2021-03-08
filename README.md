@@ -10,6 +10,7 @@ Easy usage of Glide 🦸🏻‍♀️
     <td valign="top"><img src="https://user-images.githubusercontent.com/47380312/108607057-0f79d800-73cf-11eb-8b85-32a810a4168a.JPG"></td>
   </tr>
  </table>
+ 
 ## ✨ For use Glide
 ### Step 1 -> Add implements to build.gradle file in module level
 `implementation 'com.github.bumptech.glide:glide:4.12.0'`
